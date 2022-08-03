@@ -1,0 +1,369 @@
+@import url("../css/button.css");
+@import url("../css/carousel.css");
+@import url("../css/catalog.css");
+@import url("../css/reviews.css");
+@import url("../css/footer.css");
+@import url("../css/modal.css");
+@import url("../css/animations.css");
+@import url("../css/bootstrap-reboot.min.css");
+@import url("../css/font.css");
+@import url("../css/slick.css");
+@import url("../css/style.min.css");
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+/* первая секция (promo)*/
+
+/*header*/
+.promo {
+    width: 1920px;
+    min-height: 650px;
+    background: url("../img/bg/AnyConv.com__bg.webp") no-repeat;
+
+    padding: 20px 0 65px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 90px;
+}
+
+.header_logo {
+    width: 251px;
+    height: 45px;
+}
+
+.header_official {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.header_official span {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+
+    align-items: flex-end;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.header_contacts .header_tel {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.header_contacts a {
+    text-decoration: none;
+}
+
+
+/* конттент первой секции*/
+
+.header_header {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+
+    
+    align-items: flex-end;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 17px;
+}
+
+.header_subheader {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+
+    
+    align-items: flex-end;
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-bottom: 60px;
+}
+
+.header_icons {
+    display: flex;
+    justify-content: space-between;
+
+    width: 424px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 65px;
+
+    margin-left: 510px;
+}
+
+/* .promo_icon {
+     margin-left: 30px; 
+} */
+
+.header_icon img {
+    display: block;
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+}
+
+.header_icon span {
+
+    width: 125px;
+    height: 29px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+
+    display: flex;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.header_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header_link {
+    display: flex; 
+    color: white;
+}
+
+.header_link_catalog {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #FFFFFF;
+
+    margin-left: 5px;
+}
+
+/*конец первой секции*/
+
+
+
+/*начало второй секции*/
+
+.advantages {
+    padding: 70px 0 80px 0;
+    max-height: 473px;
+    max-width: 1920px;
+    background: #F6F6F6;
+}
+
+.advantages_header {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #0D0D0D;
+
+    /* margin-bottom: 60px; */
+}
+
+.advantages_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.advantages_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 238px;
+}
+
+.advantages_img1 {
+    margin-top: 45px;
+}
+
+.advantages_img2 {
+    margin-top: 40px;
+}
+
+.advantages_img2_anim {
+    animation-name: heartbeat;
+    animation-duration: 1.5s;
+
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.advantages_img2_anim:hover {
+    animation-play-state: paused;
+}
+
+.advantages_sub {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+
+    text-align: center;
+
+    color: #0D0D0D;
+
+    margin: 35px 0 20px 0;
+}
+
+.advantages_descr {
+
+    max-width: 240px;
+    max-height: 91px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #0D0D0D;
+}
+
+.advantages_descr a {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+/* .advantages_descr {
+
+    width: 273px;
+    height: 73px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #0D0D0D;
+}
+
+.advantages_descr {
+
+    width: 277px;
+    height: 74px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    text-align: center;
+
+    color: #0D0D0D;
+} */
+
+
+/* конец второй секции*/
+
+
+/* начало третьей секции (consultations)*/
+
+.consultations {
+    width: 1920px;
+    height: 680px;
+    background: url("../img/bg/AnyConv.com__bg2.webp");
+    padding: 100px 0 105px 0;
+}
+
+.consultations_header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    align-items: flex-end;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.consultations_sub {
+    width: 426px;
+    height: 61px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+    margin-bottom: 36px;
+}
+
+form {
+    width: 303px;
+    height: 258px;
+}
+
+input {
+    width: 303px;
+    height: 54px;
+    border-radius: 10px;
+
+    background: #FFFFFF;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 66px;
+
+    align-items: center;
+
+    color: #4B4B4B;
+
+    margin-bottom: 10px;
+
+    padding-left: 20px;
+}
+
+/* конец третьей секции (consultations)*/
+
+
+.pageup {
+    display: none;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.pageup img{
+width: 100%;
+}
